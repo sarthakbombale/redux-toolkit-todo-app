@@ -1,17 +1,17 @@
 import React from 'react'
- import './App.css'
-import Todo from "./components/Todo";
- import { Provider } from 'react-redux'
+import './App.css'
+import Todo from "./components/Todo"; 
+import { Provider } from 'react-redux'
 import { store } from './app/store'
 
 
 
 const App = () => {
   return (
-<Provider store={store}>
+    <Provider store={store}>
 
-  <Todo/>
-</Provider>
+      <Todo />
+    </Provider>
   )
 }
 
